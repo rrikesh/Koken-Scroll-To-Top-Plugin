@@ -30,8 +30,8 @@ class RRikeshScrollToTop extends KokenPlugin {
 				});
 
 			});
-</script>
-<?php
+		</script>
+		<?php
   	}
   	
   	function render_css(){
