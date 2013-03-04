@@ -13,6 +13,11 @@
       "label": "Scroll Text",
       "info": "The text you want to show in the scroll-to-top area",
       "type": "string"
+    },
+    "custom_css": {
+      "label": "Custom CSS",
+      "info": "Want to add you own styles? Add it here!",
+      "type": "text"
     }
   }
     
