@@ -10,7 +10,9 @@ class RRikeshScrollToTop extends KokenPlugin {
   	
   	function render_js(){
   		?>
-  		<div id="scroll-top"><a href="#"><?php echo $this->data->scroll_text; ?></a></div>
+  		<div id="scroll-top">
+  			<a href="#"><?php echo $this->data->scroll_text; ?></a>
+  		</div>
   		 <script>
 			$(document).ready(function(){
 				var $elem = $('#scroll-top');
