@@ -4,8 +4,8 @@ class RRikeshScrollToTop extends KokenPlugin {
 	function __construct()
   	{
     	$this->require_setup = true;
-   	$this->register_hook('before_closing_body', 'render_js');
-   	$this->register_hook('before_closing_head', 'render_css');
+   		$this->register_hook('before_closing_body', 'render_js');
+   		$this->register_hook('before_closing_head', 'render_css');
   	}
   	
   	function render_js(){
