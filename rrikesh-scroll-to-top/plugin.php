@@ -40,6 +40,9 @@ class RRikeshScrollToTop extends KokenPlugin {
   		?>
   		<style>
 			#scroll-top{
+			<?php if( $this->data->custom_css !== ""){ 
+  				echo $this->data->custom_css;
+  			} else { ?>
 				background: none repeat scroll 0 0 #C0C0C0;
 				border: 2px solid red;
 				bottom: 30px;
@@ -47,7 +50,8 @@ class RRikeshScrollToTop extends KokenPlugin {
 				position: fixed;
 				right: 30px;
 				z-index: 100;
-			}  		
+			<?php } ?>  	
+			}	
   		</style>
   		<?php
   	}
